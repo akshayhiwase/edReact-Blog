@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Logo from './Components/Logo/Logo'
+import Header from './Components/Header/header'
 import Cards from './Components/Cards/Cards'
 import Sidebar from './Components/Sidebar/Sidebar'
 import './App.css';
@@ -8,10 +7,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Logo />
-      <Navbar />
-      <Cards />
-      <Sidebar />
+
+      <Header />
+
+      <h1>My Places</h1>
+      <div className="main-section">
+
+        <Cards />
+        <Sidebar />
+      </div>
+
+
 
     </div>
   );

@@ -1,8 +1,12 @@
 import React from 'react';
+import './logo.css'
 
 const logo = () => {
     return (
-        <h1>Traveller</h1>
+        <div className="logo">
+            <h1>Traveller</h1>
+        </div>
+
     )
 }
 export default logo;

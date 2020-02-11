@@ -1,9 +1,10 @@
 import React from 'react';
+import './cards.css'
 
 
 const cards = () => {
     return (
-        <div className="main-contrainer">
+        <div className="main-container">
 
             <div className="card">
                 <img src="https://media.cntraveler.com/photos/5b7657861be29d572c024f32/master/w_820,c_limit/GettyImages-508621086.jpg" alt="Vienna, Austria" />
