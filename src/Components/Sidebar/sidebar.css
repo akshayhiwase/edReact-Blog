@@ -1,6 +1,8 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 30%;
   height: 400px;
   margin-top: 20px;
@@ -11,4 +13,7 @@
 .sidebar a {
   margin: 5px;
   margin-left: 10px;
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
 }

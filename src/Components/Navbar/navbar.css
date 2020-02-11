@@ -1,6 +1,7 @@
 .navbar {
+  width: 25%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .navbar a {
